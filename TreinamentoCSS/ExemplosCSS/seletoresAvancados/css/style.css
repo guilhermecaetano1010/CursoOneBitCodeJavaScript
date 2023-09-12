@@ -1,0 +1,21 @@
+/* li a{
+    color: red;  Seletor de descendencia todos os "a" vão receber o estilo independente de estarem dentro do "li" ou não.  
+}       */
+li > a{
+    color: red;      
+}                     /* Seletor filho passa somente para o filho ou seja apenas para "a" que estiver dentro do "li"  <li><a></a></li>*/
+
+h1 + h4{
+    border: 4px dashed;
+}  /*Seletor adjacente passa a borda se tiver exatamente um h4 seguido de um h1*/
+
+a[heref='/recibo']{
+    color: green ;
+} /*Seletor atributo*/
+
+li:nth-of-type(2){
+    color: aqua;  /*Coloca estilos em todos os 2° itens das listas*/
+}
+li:nth-of-type(odd){
+    color: goldenrod; /*Coloca em todos as posições ímpares da lista posição 1 e 3*/
+}

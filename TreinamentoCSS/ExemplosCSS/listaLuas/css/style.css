@@ -1,0 +1,24 @@
+h1{
+    color: purple;
+    font-size: 50px;
+    background-color: gray;
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+li{
+    color:green;
+    border: 2px dashed red;
+}
+body{
+    background-image: url('https://socientifica.com.br/wp-content/uploads/2019/05/the-starship-on-mars.jpeg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+#earth{
+    color: blue;
+    border: 1px solid green;
+}
+.paragraphs_color{
+    color: #fff;
+}
