@@ -7,17 +7,18 @@ sair = prompt("Sua quantidade de dinheiro inicial é R$ "+ quantInicial.toFixed(
 "\n 2 - Remover dinheiro"+
 "\n 3 - Sair");
 
-let dinheiro;
+
 
 switch (sair) {
     case "1":
-        dinheiro = parseFloat(prompt("Digite a quantia de dinheiro que deseja adicionar:"));
-        quantInicial+= dinheiro; 
+        quantInicial  += parseFloat(prompt("Digite a quantia de dinheiro que deseja adicionar:"));
         break;
     case "2":
-        dinheiro = parseFloat(prompt("Digite a quantia de dinheiro que deseja remover:"));
-        quantInicial-= dinheiro; 
+        quantInicial-= parseFloat(prompt("Digite a quantia de dinheiro que deseja remover:"));
         break;
+    case "3":
+         alert("O programa está encerrado!")
+    break;
 
 }
 } while (sair!=="3");
