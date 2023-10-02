@@ -6,6 +6,9 @@ const matriz = [
   ]
   console.table(matriz)
 
+  //matriz.push(["Nova linha"])
+  //matriz[0].push("Npva coluna")
+
   // Podemos usar vários níveis de laços FOR para iterar facilmente pela matriz
 for (let i = 0; i < matriz.length; i++) {
     for (let j = 0; j < matriz[i].length; j++) {
