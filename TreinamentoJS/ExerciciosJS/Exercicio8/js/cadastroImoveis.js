@@ -1,6 +1,6 @@
 let escolha = "";
 let imoveis = [];
-// let numeroImoveis = 0;
+
 
 do {
 
@@ -18,7 +18,7 @@ do {
     
     switch (escolha) {
         case "1":
-        // numeroImoveis ++;  
+   
         // nomeProp = prompt("Digite o nome do proprietário do imóvel: ");
         // quantidadeQuartos = prompt("Digite a quantidade de quartos do imóvel: ");
         // numeroBanheiros = prompt("Digite a quantidade de banheiros do imóvel: ");
