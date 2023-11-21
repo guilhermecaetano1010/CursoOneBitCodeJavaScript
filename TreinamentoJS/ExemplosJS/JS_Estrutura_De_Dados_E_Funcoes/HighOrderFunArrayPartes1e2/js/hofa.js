@@ -85,5 +85,13 @@ console.log(racas)
 
 // Sort  Serve para ordenar Arrays, ou seja, trocar elementos de posição de acordo com um critério deixando-os em ordem
 
-personagens.sort()
+//Quando queremos usar o Sort sem modificar o Array principal podemos usar o método slice e armazenar em uma variável
 
+
+let personagensEmOrdem = personagens.slice().sort(function (personagemA, personagemB) {
+    return personagemA.nivel - personagemB.nivel //Crescente
+//     return personagemB.nivel - personagemA.nivel //Decrescente
+})
+
+console.log(personagens) // Primeiro array sem colocar em ordem
+console.log(personagensEmOrdem) //Array em ordem
