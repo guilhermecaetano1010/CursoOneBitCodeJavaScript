@@ -5,7 +5,7 @@ function listarVagas() {
         // 1. nome, (x candidatos)
         textoFinal += indice + ". "
         textoFinal += vaga.nome
-        textoFinal += " (" + vaga.candidatos.length + "candidatos)\n"
+        textoFinal += " (" + vaga.candidatos.length + " candidatos)\n"
         return textoFinal
     }, "")
 
@@ -136,7 +136,7 @@ executar()
 
 
 
-// 
+
 
 
 
