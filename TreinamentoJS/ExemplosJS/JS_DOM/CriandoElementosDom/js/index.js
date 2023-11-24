@@ -3,7 +3,7 @@ function addInput() {
 
     const newLi = document.createElement('li')
     newLi.className = 'list-item'
-    newLi.innerText = 'Novo input:'
+    newLi.innerText = 'Novo input: '
 
     const newInput = document.createElement('input')
     newInput.type = 'text'
