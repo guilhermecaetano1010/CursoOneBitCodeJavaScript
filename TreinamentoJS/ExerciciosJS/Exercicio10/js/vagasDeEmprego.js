@@ -18,7 +18,7 @@ function novaVaga() {
     const dataLimite = prompt("Informe uma data limite (dd/mm/aaaa) para a vaga:")
 
     const confirmacao = confirm(
-        "Deseja crair uma nova vaga com essas informações?\n" + 
+        "Deseja criar uma nova vaga com essas informações?\n" + 
         "Nome: " + nome + "\nDescrição: " + descricao + "\nData limite: " + dataLimite
     )
 
